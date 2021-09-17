@@ -42,6 +42,8 @@ ul {
 .banner{
     height: 100%;
     width: 100%;
+    border-radius: 2%;
+    
 }
 
 .descrizione-prima-foto{
@@ -49,11 +51,15 @@ ul {
     top: 60%;
     left: 35%;
     transform: translate(-40%, -65%);
+    color: white;
+}
+
+#testo-primo-banner{
+    color: white;
 }
 
 
 .conteiner{
-    background-color: rgb(41, 108, 231);
     margin: 1%;
 }
 
@@ -70,7 +76,6 @@ ul {
 .box-left{
     width: 20%;
     height: 400px;
-    background-color: rgb(130, 206, 206);
     float:left;
     margin: 1% 1% 0 0;
 }
@@ -78,7 +83,6 @@ ul {
 .box-center{
     width: 56%;
     height: 400px;
-    background-color: rgb(130, 206, 206);
     float:left;
     margin: 1%;
 }
@@ -86,7 +90,6 @@ ul {
 .box-right{
     width: 20%;
     height: 400px;
-    background-color: rgb(130, 206, 206);
     float:right;
     margin: 1% 0 1% 0;
 }
@@ -97,9 +100,14 @@ ul {
     border-radius: 4%;
 }
 
-footer{
-    height: 50px;
-    background-color: rgb(94, 5, 102);
-    margin: 0 1% 1% 1%;
+p{
+    color: rgb(136, 134, 134);
+    font-size: 16px;
+    
 }
 
+footer{
+    height: 50px;
+    margin: 2%;
+    text-align: center;
+}
